@@ -1,0 +1,13 @@
+Common ClassPath: C:\TopCoder\ExampleBuilder.jar;C:\TopCoder\FileEdit.jar;C:\TopCoder\CodeProcessor.jar
+
+Editor Preferences: 
+	Name: codeprocessor
+	EntryPoint: codeprocessor.EntryPoint
+	ClassPath: <empty>
+
+Editor EntyrPoint: fileedit.EntryPoint
+Processor Class: tc_plugin.ExampleBuilder
+
+Editor Configuration:
+	Read/Write problems to: C:\TopCoder\src
+	Code Template: C#, template.cs
