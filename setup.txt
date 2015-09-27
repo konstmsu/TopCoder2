@@ -11,3 +11,8 @@ Processor Class: tc_plugin.ExampleBuilder
 Editor Configuration:
 	Read/Write problems to: C:\TopCoder\src
 	Code Template: C#, template.cs
+	
+Visual Studio:
+	enable overflow detection
+	target: 4.5
+	
