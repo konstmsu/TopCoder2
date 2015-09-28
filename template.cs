@@ -94,5 +94,21 @@ $MAINBODY$
         
         Console.WriteLine('}');
     }
+
+    static void print<T>(T[,] a)
+    {
+        if (a == null)
+            Console.WriteLine("<NULL>");
+
+        var str = new StringBuilder();
+        for (var i = 0; i < a.GetLength(1); i++)
+        {
+            for (var j = 0; j < a.GetLength(0); j++)
+                str.Append(a[i, j] + "\t");
+
+            str.AppendLine();
+        }
+        Console.WriteLine(str);
+    }
 $ENDCUT$
 }
